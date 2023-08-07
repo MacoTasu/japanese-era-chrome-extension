@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "watch": "vite build --watch",
+    "zip": "yarn build && crx pack dist -o dist.crx"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.14",
+    "@types/chrome": "^0.0.243",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8"
+  }
+}
